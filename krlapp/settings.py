@@ -79,11 +79,11 @@ DATABASES = {
     
     "default": {
         "ENGINE": "mssql",
-        "NAME": "KRLAPP",
-        "USER": "lucka",
-        "PASSWORD": "123456",
-        "HOST": "LOCALHOST\SQLEXPRESS",
-        #"PORT": "1433",
+        "NAME": "krlapp",
+        "USER": "alfredo",
+        "PASSWORD": "migue.2021",
+        "HOST": "tcp:krlapp.database.windows.net",
+        "PORT": "1433",
         
         "OPTIONS": {"driver": "ODBC Driver 17 for SQL Server",
                     },
